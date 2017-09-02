@@ -1,7 +1,7 @@
 About pyasn1
 ============
 
-Home: http://sourceforge.net/projects/pyasn1/
+Home: https://github.com/etingof/pyasn1
 
 Package license: BSD 2-Clause
 
