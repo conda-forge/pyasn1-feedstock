@@ -1,8 +1,8 @@
 {% set name = "pyasn1" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "90bd82e0db59d4319eaf01c2549b34c817d645275fce9ad41bac7429aa380690" %}
+{% set hash = "01c20ade412088b42dcd5f0fef6149f6b7377297c5c5f222bb5ef0331ee3517c" %}
 {% set build = 0 %}
 
 package:
@@ -37,12 +37,13 @@ test:
     - pyasn1.type
 
 about:
-  home: http://sourceforge.net/projects/pyasn1/
+  home: https://github.com/etingof/pyasn1
   license: BSD 2-Clause
   license_file: LICENSE.rst
   summary: 'ASN.1 types and codecs'
   license_family: BSD
   doc_url: http://pyasn1.sourceforge.net/
+  dev_url: https://github.com/etingof/pyasn1
 
 extra:
   recipe-maintainers:
