@@ -1,8 +1,8 @@
 {% set name = "pyasn1" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "01c20ade412088b42dcd5f0fef6149f6b7377297c5c5f222bb5ef0331ee3517c" %}
+{% set hash = "3946ff0ab406652240697013a89d76e388344866033864ef2b097228d1f0101a" %}
 {% set build = 0 %}
 
 package:
@@ -15,6 +15,7 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
+  noarch: python
   number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
