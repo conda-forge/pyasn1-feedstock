@@ -14,9 +14,7 @@ Summary: ASN.1 types and codecs
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyasn1-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyasn1-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyasn1-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyasn1-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyasn1-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyasn1-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pyasn1-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyasn1-feedstock)
 
 Current release info
 ====================
