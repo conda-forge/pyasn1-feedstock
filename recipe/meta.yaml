@@ -1,8 +1,8 @@
 {% set name = "pyasn1" %}
-{% set version = "0.3.7" %}
+{% set version = "0.4.2" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "187f2a66d617683f8e82d5c00033b7c8a0287e1da88a9d577aebec321cad4965" %}
+{% set hash = "d258b0a71994f7770599835249cece1caef3c70def868c4915e6e5ca49b67d15" %}
 {% set build = 0 %}
 
 package:
@@ -34,6 +34,7 @@ test:
     - pyasn1.codec.ber
     - pyasn1.codec.cer
     - pyasn1.codec.der
+    - pyasn1.codec.native
     - pyasn1.compat
     - pyasn1.type
 
