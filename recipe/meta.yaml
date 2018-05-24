@@ -1,8 +1,8 @@
 {% set name = "pyasn1" %}
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "d258b0a71994f7770599835249cece1caef3c70def868c4915e6e5ca49b67d15" %}
+{% set hash = "fb81622d8f3509f0026b0683fe90fea27be7284d3826a5f2edf97f69151ab0fc" %}
 {% set build = 0 %}
 
 package:
