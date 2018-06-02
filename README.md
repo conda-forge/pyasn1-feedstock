@@ -14,12 +14,15 @@ Summary: ASN.1 types and codecs
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pyasn1-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyasn1-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pyasn1-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pyasn1-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyasn1/badges/version.svg)](https://anaconda.org/conda-forge/pyasn1)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyasn1/badges/downloads.svg)](https://anaconda.org/conda-forge/pyasn1)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyasn1-green.svg)](https://anaconda.org/conda-forge/pyasn1) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyasn1.svg)](https://anaconda.org/conda-forge/pyasn1) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyasn1.svg)](https://anaconda.org/conda-forge/pyasn1) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyasn1.svg)](https://anaconda.org/conda-forge/pyasn1) |
 
 Installing pyasn1
 =================
