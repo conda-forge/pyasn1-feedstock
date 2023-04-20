@@ -1,4 +1,4 @@
-{% set version = "0.4.8" %}
+{% set version = "0.5.0" %}
 
 package:
   name: pyasn1
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyasn1/pyasn1-{{ version }}.tar.gz
-  sha256: aef77c9fb94a3ac588e87841208bdec464471d9871bd5050a287cc9a475cd0ba
+  sha256: 97b7290ca68e62a832558ec3976f15cbf911bf5d7c7039d8b861c2a0ece69fde
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
@@ -35,7 +35,7 @@ about:
   license: BSD 2-Clause
   license_file: LICENSE.rst
   license_family: BSD
-  summary: 'ASN.1 types and codecs'
+  summary: ASN.1 types and codecs
   description: |
     Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
   doc_url: http://pyasn1.sourceforge.net/
