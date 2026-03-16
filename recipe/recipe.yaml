@@ -1,0 +1,44 @@
+schema_version: 1
+
+context:
+  name: pyasn1
+  version: "0.6.3"
+
+package:
+  name: ${{ name|lower }}
+  version: ${{ version }}
+
+source:
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyasn1-${{ version }}.tar.gz
+  sha256: 697a8ecd6d98891189184ca1fa05d1bb00e2f84b5977c481452050549c8a72cf
+
+build:
+  number: 0
+  noarch: python
+  script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+
+requirements:
+  host:
+    - python ${{ python_min }}.*
+    - setuptools
+    - pip
+  run:
+    - python >=${{ python_min }}
+
+tests:
+  - python:
+      python_version: ${{ python_min }}.*
+      pip_check: true
+      imports:
+        - pyasn1
+
+about:
+  summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
+  license: BSD-2-Clause
+  license_file: LICENSE.rst
+  homepage: https://github.com/pyasn1/pyasn1
+  repository: https://github.com/pyasn1/pyasn1
+
+extra:
+  recipe-maintainers:
+    - xhochy
