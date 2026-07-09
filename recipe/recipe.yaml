@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyasn1
-  version: "0.6.3"
+  version: "0.6.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyasn1-${{ version }}.tar.gz
-  sha256: 697a8ecd6d98891189184ca1fa05d1bb00e2f84b5977c481452050549c8a72cf
+  sha256: 9c447d8431c947fe4c8febc4ed9e760bc29011a5b01e5c74b67025bd9fb8ce81
 
 build:
   number: 0
